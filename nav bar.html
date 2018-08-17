@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tension</title>
+</head>
+<body>
+<nav class = "container">
+  <div class="Home">
+    Home
+  </div>
+  <div class="Search">
+    Search
+  </div>
+  <div class="Logout">
+    Logout
+  </div>
+</nav>
+<style>
+.container{
+  border:solid 5px #d0ce40;
+  display:flex;
+  //justify-content: center;
+  flex-flow:row wrap-reverse;
+}
+.container div{
+  //flex:1;
+}
+.Logout{
+  margin-left: auto;
+  flex-grow: 1;
+  background-color: #73badd;
+}
+.Search{
+  background-color: rgb(235, 52, 230);
+  flex-grow:3;
+}
+.Home{
+  background-color:rgb(101, 232, 211);
+  flex-grow: 1;
+}
+</style>
+</body>
+</html>
